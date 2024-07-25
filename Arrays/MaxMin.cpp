@@ -3,15 +3,21 @@ using namespace std;
 
 int getMax(int arr[],int size){
     int max=INT8_MIN;
-    
     for(int i=1;i<=size;i++){
         if(arr[i] > max){
             max=arr[i];
         }     
     }
     cout<<endl;
-    // cout<<"Maximum element of array is"<<max;
-   return max;
+    cout<<"Maximum element of array is"<<max;
+    return max;
+
+    // int maxi=INT8_MIN;
+    // for(int i=1;i<=size;i++){
+    //  maxi=max(maxi,arr[i]);
+    // }
+    // return maxi;
+
 }
 
 int getMin(int arr[],int size){
